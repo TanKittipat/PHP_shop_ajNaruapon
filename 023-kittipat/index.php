@@ -16,7 +16,7 @@ require "db.php";
 <body>
     <div class="container mx-auto px-24 py-10">
         <h1 class="text-xl font-bold">Form for adding new Item to DB</h1>
-        <form action="" id="adding-form" class="mt-5 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6">
+        <form action="additem.php" method="post" id="adding-form" class="mt-5 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6">
             <!-- Item name -->
             <div class="sm:col-span-4">
                 <label for="item-name" class="block text-sm/6 font-medium text-gray-900">Item name</label>
